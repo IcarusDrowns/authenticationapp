@@ -1,0 +1,143 @@
+:root {
+  --primary: #f64f59;
+}
+body {
+  margin: 0;
+  color: #444444;
+  background-color: azure;
+}
+pre {
+  white-space: pre-wrap;
+}
+.card {
+  background: white;
+  border-radius: 2px;
+  display: inline-block;
+  margin-right: 2em;
+}
+.page {
+  width: 50%;
+  margin: 0 auto;
+}
+.page-title {
+  font-weight: 400;
+  font-size: 25px;
+}
+.title-bar {
+  background-color: white;
+  border-top-right-radius: 6px;
+  border-top-left-radius: 6px;
+  color: #4d494d;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.buttons {
+  float: left;
+  padding-left: 8px;
+  padding-top: 3px;
+  line-height: 0;
+}
+
+.mac-btn {
+  font-size: 9px;
+  width: 11px;
+  height: 11px;
+  display: inline-block;
+  border-radius: 50%;
+}
+
+.close {
+  background: #ff5c5c;
+  border: 1px solid #ff5c5c;
+}
+
+.minimize {
+  background: #ffbd4c;
+  border: 1px solid #ffbd4c;
+  margin-left: 4px;
+}
+
+.zoom {
+  background: #00ca56;
+  border: 1px solid #00ca56;
+  margin-left: 4px;
+}
+
+.content {
+  background-color: #eeeeee;
+  padding: 20px 10px;
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+}
+
+.col {
+  display: inline-block;
+}
+
+.col-4 {
+  width: 25%;
+}
+
+.col-8 {
+  width: 75%;
+}
+
+.tag {
+  color: var(--primary-red);
+  display: inline-block;
+  padding: 5px 10px;
+  border: 1px solid var(--primary-red);
+  border-radius: 5px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.tag:hover,
+.selected {
+  background-color: var(--primary-red);
+  color: white;
+}
+
+.footer {
+  padding: 10px;
+  border: 1px solid #d4d7dd;
+  background-color: #eae9e9;
+  color: #45454d;
+}
+
+.social-icon {
+  width: 24px;
+  height: 24px;
+  transition: all ease-in-out 0.6s;
+}
+
+.social-icon:hover {
+  transform: translateY(-5px);
+}
+
+@media (max-width: 860px) {
+  .page {
+    width: 65%;
+  }
+  .menu-bar {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+}
+
+@media (max-width: 770px) {
+  .page {
+    width: 80%;
+  }
+}
+
+@media (max-width: 660px) {
+  .page {
+    width: 98%;
+  }
+  .menu-bar {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
