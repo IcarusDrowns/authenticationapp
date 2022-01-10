@@ -1,5 +1,5 @@
 const express = require("express");
-const cors = require("passport");
+const cors = require("cors");
 const passport = require("passport");
 const FacebookStrategy = require("passport-facebook").Strategy;
 const GoogleStrategy = require("passport-google-oauth20").Strategy;
